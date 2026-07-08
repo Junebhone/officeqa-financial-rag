@@ -8,7 +8,7 @@ benchmark). It compares a **Baseline** (simple, unoptimized) pipeline against an
 - **Recent years used:** 2015–2025 (quarterly bulletins: Mar/Jun/Sep/Dec)
 - **Evaluable questions:** 17 (11 hard, 6 easy) — every question whose gold source
   documents all fall inside the indexed corpus
-- **Everything runs locally, no API key** (generation via Ollama)
+- **Everything runs locally, no API key** (generation with the `qwen2.5:7b-instruct` model, served locally by Ollama)
 
 ---
 
