@@ -1,0 +1,16 @@
+# Secrets — never commit
+.hf_token
+.env
+
+# Data & build artifacts (large / regenerable)
+data/
+chroma_db/
+__pycache__/
+.pytest_cache/
+*.pyc
+.DS_Store
+
+# Gated benchmark content — per-question questions/answers must NOT be published
+# (dataset is gated + CC-BY-SA). Aggregate scorecard.md is safe to commit.
+results/*.json
+results/validation.md

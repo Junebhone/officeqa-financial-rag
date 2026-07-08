@@ -1,0 +1,19 @@
+# Core RAG stack
+chromadb>=0.5.0
+sentence-transformers>=3.0.0
+pandas>=2.0.0
+numpy>=1.26.0
+
+# Data download (gated HF dataset)
+huggingface_hub>=0.24.0
+
+# Generation / judging via local Ollama (no API key needed).
+# The `requests` lib talks to the Ollama HTTP API at localhost:11434.
+requests>=2.31.0
+
+# Optional cloud providers (only needed if you switch GEN_PROVIDER in config.py)
+# anthropic>=0.40.0
+# openai>=1.50.0
+
+# Testing
+pytest>=8.0.0

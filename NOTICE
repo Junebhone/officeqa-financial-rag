@@ -1,0 +1,11 @@
+This project vendors one file from the Databricks OfficeQA repository:
+
+  reward.py — the official answer-scoring function
+  Source: https://github.com/databricks/officeqa
+  Licensed under the Apache License, Version 2.0 (see LICENSE-APACHE).
+
+All other code in this repository is original work for the Financial RAG lab.
+
+The OfficeQA benchmark data (Treasury Bulletin corpus and answer-key CSVs) is a
+gated dataset released under CC-BY-SA 4.0 and is NOT included here — request
+access at https://huggingface.co/datasets/databricks/officeqa.
